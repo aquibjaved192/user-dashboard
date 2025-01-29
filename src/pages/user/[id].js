@@ -31,7 +31,7 @@ export default function UserDetails() {
   return (
     <div className={styles.userDetailsContainer}>
       <button onClick={() => router.push('/')} className={styles.backButton}>
-        Back to Dashboard
+        &lt; Back to Dashboard
       </button>
       <div className={styles.details}>
         {user.name ? (

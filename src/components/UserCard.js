@@ -1,7 +1,8 @@
+import React from 'react';
 import Link from 'next/link';
 import styles from '@/styles/UserCard.module.css';
 
-export default function UserCard({ user }) {
+function UserCard({ user }) {
   return (
     <Link href={`/user/${user.id}`} className={styles.userCard}>
       <h3>{user.name}</h3>
@@ -10,3 +11,5 @@ export default function UserCard({ user }) {
     </Link>
   );
 }
+
+export default React.memo(UserCard);
