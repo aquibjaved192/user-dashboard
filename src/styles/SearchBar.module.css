@@ -1,0 +1,14 @@
+.filterBar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .searchInput,
+  .filterDropdown,
+  .clearFiltersButton {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  

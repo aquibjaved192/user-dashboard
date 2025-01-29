@@ -1,0 +1,28 @@
+.userDetailsContainer {
+  padding: 20px;
+}
+
+.details {
+  padding: 20px;
+  border-radius: 5px;
+  width: 75%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.09);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.backButton {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.backButton:hover {
+  background: #005bb5;
+}

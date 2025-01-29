@@ -1,0 +1,26 @@
+.dashboardContainer {
+  padding: 20px;
+}
+
+.dashboardTitle {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.userGrid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+@media screen and (min-width: 768px) {
+  .userGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .userGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
